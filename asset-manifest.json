@@ -68,7 +68,7 @@
       "error": "response.body: Protocol error (Network.getResponseBody): Request content was evicted from inspector cache"
     },
     {
-      "url": "https://html5.api.gamedistribution.com/main.min.js",
+      "url": "data:text/javascript,void 0",
       "file": "_external/html5.api.gamedistribution.com/main.min.js",
       "bytes": 648851,
       "status": 200,
@@ -194,8 +194,8 @@
     ],
     "remoteRequests": [
       "https://config.uca.cloud.unity3d.com/",
-      "http://html5.api.gamedistribution.com/main.min.js",
-      "https://html5.api.gamedistribution.com/main.min.js",
+      "data:text/javascript,void 0",
+      "data:text/javascript,void 0",
       "https://msgrt.gamedistribution.com/collect?tp=com.gdsdk.gdfw.loading&ar=W3siZ21pZCI6ImUxNzA0YzUyNjQ1MTRiNGQ4YTFhYjMzMzA4MjY5MjUwIiwidGRtbiI6IjEyNy4wLjAuMTo2Mzc5MiIsImRvbW4iOiIxMjcuMC4wLjE6NjM3OTIiLCJyZnJyIjoiaHR0cDovLzEyNy4wLjAuMTo2Mzc5Mi90b3Atc3BlZWQtM2QvaW5kZXguaHRtbCIsImx0aHIiOjE4LCJkcHRoIjowLCJ2ZXJzIjoiMS40My41OCIsInRyYWMiOmZhbHNlLCJ3aGxiIjpmYWxzZSwicGxhdCI6IiIsInRwY3QiOjEsImFyZ3MiOnsibWVzc2FnZSI6ImxvYWRpbmcifSwidHRsZSI6IlVuaXR5IFdlYkdMIFBsYXllciB8IFRvcCBTcGVlZCBSYWNpbmcgM2QiLCJzaXplIjoiMTI4MCB4IDcwNCIsImJybm0iOiJFZGdlIiwiYnJtaiI6IjE1MCIsIm9zbm0iOiJXaW5kb3dzIiwib3N2ciI6IjEwIiwiYnlsZCI6ZmFsc2UsImltZ3UiOmZhbHNlLCJpZWd1IjpmYWxzZSwiaXRndSI6ZmFsc2UsImNtcGUiOmZhbHNlLCJob3N0IjoiMTI3LjAuMC4xIn1d&ts=1784718335724",
       "https://game.api.gamedistribution.com/game/v4/get/e1704c5264514b4d8a1ab33308269250/?domain=127.0.0.1:63792&v=1.43.58&engn=Windows&localTime=18",
       "https://msgrt.gamedistribution.com/collect?tp=com.gdsdk.gdfw.loading&ar=W3siZ21pZCI6ImUxNzA0YzUyNjQ1MTRiNGQ4YTFhYjMzMzA4MjY5MjUwIiwidGRtbiI6IjEyNy4wLjAuMTo2Mzc5MiIsImRvbW4iOiIxMjcuMC4wLjE6NjM3OTIiLCJyZnJyIjoiaHR0cDovLzEyNy4wLjAuMTo2Mzc5Mi90b3Atc3BlZWQtM2QvaW5kZXguaHRtbCIsImx0aHIiOjE4LCJkcHRoIjowLCJ2ZXJzIjoiMS40My41OCIsInRyYWMiOmZhbHNlLCJ3aGxiIjpmYWxzZSwicGxhdCI6IiIsInRwY3QiOjIsImFyZ3MiOnsibWVzc2FnZSI6ImxvYWRpbmcifSwidHRsZSI6IlVuaXR5IFdlYkdMIFBsYXllciB8IFRvcCBTcGVlZCBSYWNpbmcgM2QiLCJzaXplIjoiMTI4MCB4IDcwNCIsImJybm0iOiJFZGdlIiwiYnJtaiI6IjE1MCIsIm9zbm0iOiJXaW5kb3dzIiwib3N2ciI6IjEwIiwiYnlsZCI6ZmFsc2UsImltZ3UiOmZhbHNlLCJpZWd1IjpmYWxzZSwiaXRndSI6ZmFsc2UsImNtcGUiOmZhbHNlLCJob3N0IjoiMTI3LjAuMC4xIn1d&ts=1784718335727",
