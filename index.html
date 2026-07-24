@@ -39,6 +39,17 @@
   window.__gaTracker = window.__gaTracker || function () {};
   window.GameMonetize = window.GameMonetize || {};
 
+  var nativeFetch = window.fetch && window.fetch.bind(window);
+  if (nativeFetch) window.fetch = function (input, init) {
+    var value = typeof input === "string" ? input : input && input.url;
+    try {
+      if (new URL(value, document.baseURI).hostname === "config.uca.cloud.unity3d.com") {
+        return Promise.resolve(new Response("{}", { status: 200, headers: { "Content-Type": "application/json" } }));
+      }
+    } catch (_) {}
+    return nativeFetch(input, init);
+  };
+
   setTimeout(function () { emit("SDK_READY"); emit("SDK_GAME_START"); emit("CONTENT_RESUME_REQUESTED"); }, 0);
   document.addEventListener("DOMContentLoaded", function () { emit("SDK_READY"); emit("SDK_GAME_START"); });
 })();
