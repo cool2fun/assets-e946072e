@@ -145,23 +145,23 @@
         // performance, uncomment the following line:
         // config.devicePixelRatio = 1;
 
-        canvas.style.width = window.innerWidth + 'px';
-        canvas.style.height = window.innerHeight + 'px';
+        canvas.style.width = '100%';
+        canvas.style.height = '100%';
 
         // unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = window.innerWidth + 'px';
-        canvas.style.height = window.innerHeight + 'px';
+        canvas.style.width = '100%';
+        canvas.style.height = '100%';
         // canvas.style.width = "900px";
         // canvas.style.height = "600px";
       }
 
       window.addEventListener('resize', function() {
       setTimeout(function() {
-        canvas.style.width = window.innerWidth + 'px';
-        canvas.style.height = window.innerHeight + 'px';
+        canvas.style.width = '100%';
+        canvas.style.height = '100%';
       }, 1000);
       }, false);
 
